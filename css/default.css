@@ -29,19 +29,19 @@ footer{
   text-align: center;
 }
 
-@media screen and(oientation:portrait){
+@media screen and (oientation:portrait){
   body:after{
     content: "縦長";
   }
 }
 
-@media screen and(oientation:landscape)
+@media screen and (oientation:landscape)
   body:after{
     content: "横長";
   }
 }
 
-@media screen and(min-width:641px){
+@media screen and (min-width:641px){
   aside{
     width: calc(50% - 20px);
     float:left;
